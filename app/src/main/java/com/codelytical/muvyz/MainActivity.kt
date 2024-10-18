@@ -40,7 +40,7 @@ class xMainActivity : ComponentActivity() {
             )
 
             MoviewTheme(themeValue) {
-                val navController = rememberNavController()
+                val navController = rememberNavController()/jj
                 val navHostEngine = rememberNavHostEngine()
 
                 val newBackStackEntry by navController.currentBackStackEntryAsState()
@@ -48,7 +48,8 @@ class xMainActivity : ComponentActivity() {
 
                 StandardScaffold(
                     navController = navController,/hahahah
-                    showBottomBar = route in listOf(
+
+                        showBottomBar = route in listOf(
                         HomeScreenDestination.route,
                         FavoritesScreenDestination.route,
                         AccountScreenDestination.route,
