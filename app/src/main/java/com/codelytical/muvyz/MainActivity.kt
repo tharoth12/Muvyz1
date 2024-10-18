@@ -40,7 +40,7 @@ class xMainActivity : ComponentActivity() {
             )
 
             MoviewTheme(themeValue) {
-                val navController = rememberNavController()/jj
+                val navController = rememberNavController()
                 val navHostEngine = rememberNavHostEngine()
 
                 val newBackStackEntry by navController.currentBackStackEntryAsState()
