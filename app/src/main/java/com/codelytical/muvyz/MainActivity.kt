@@ -27,7 +27,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 
 @AndroidEntryPoint
-class xMainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity() {
 
     @OptIn(ExperimentalSharedTransitionApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,8 +48,7 @@ class xMainActivity : ComponentActivity() {
 
                 StandardScaffold(
                     navController = navController,
-
-                        showBottomBar = route in listOf(
+                    showBottomBar = route in listOf(
                         HomeScreenDestination.route,
                         FavoritesScreenDestination.route,
                         AccountScreenDestination.route,
