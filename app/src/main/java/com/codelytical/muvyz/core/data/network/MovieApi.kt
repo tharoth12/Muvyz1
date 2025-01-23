@@ -47,7 +47,7 @@ class HomeViewModel @Inject constructor(
     }
 
     /**
-     * Movies field
+     * Movies
      */
     fun getTrendingMovies(genreId: Int?) {
         _homeUiState.update {

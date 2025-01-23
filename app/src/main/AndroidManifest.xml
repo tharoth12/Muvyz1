@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Muvyz"
         tools:targetApi="31">
         <activity
-            android:name=".xMainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Muvyz">
             <intent-filter>
