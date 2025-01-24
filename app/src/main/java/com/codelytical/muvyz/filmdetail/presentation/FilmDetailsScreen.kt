@@ -36,7 +36,7 @@ import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.generated.destinations.CastDetailsScreenDestination
 import com.ramcosta.composedestinations.generated.destinations.CastsScreenDestination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-
+//detailFilm
 @OptIn(ExperimentalSharedTransitionApi::class)
 @Destination<RootGraph>
 @Composable
