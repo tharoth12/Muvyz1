@@ -14,7 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.codelytical.muvyz.core.presentation.theme.MoviewTheme
-
+//toolbars
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun StandardToolbar(
