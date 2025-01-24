@@ -2,7 +2,7 @@
 package com.codelytical.muvyz.genre.data.network
 
 import com.google.gson.annotations.SerializedName
-
+//genre
 data class GenresResponse(
     @SerializedName("genres")
     val genres: List<GenreDto>
