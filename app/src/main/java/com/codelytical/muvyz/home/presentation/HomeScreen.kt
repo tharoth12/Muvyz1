@@ -8,14 +8,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.codelytical.muvyz.R
+import com.codelytical.muvyz.core.domain.model.BottomNavItem
 import com.codelytical.muvyz.core.domain.model.Film
+import com.codelytical.muvyz.core.presentation.theme.MoviewTheme
 import com.codelytical.muvyz.core.util.Constants.TYPE_MOVIE
 import com.codelytical.muvyz.core.util.Constants.TYPE_TV_SERIES
 import com.codelytical.muvyz.core.util.createImageUrl
 import com.codelytical.muvyz.home.domain.model.Movie
 import com.codelytical.muvyz.home.domain.model.Series
+import com.codelytical.muvyz.search.presentation.SearchScreenContent
+import com.codelytical.muvyz.search.presentation.SearchUiState
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.generated.destinations.FilmDetailsScreenDestination
@@ -78,7 +83,6 @@ fun SharedTransitionScope.HomeScreen(
         }
     )
 }
-
 
 
 fun Movie.toFilm(
